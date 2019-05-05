@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(149, 130, 168);
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: darkcyan;
+    border-bottom: 3px darkorchid;
+    padding: 20px 0;
+    text-shadow: 5px 3px 4px grey;
+}
+
+  .flex-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+  }
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+} */

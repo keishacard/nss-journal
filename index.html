@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Journal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="src/styles/css/journal.css">
+</head>
+<h1>Daily Journal</h1>
+
+<div class="flex-container">
+    <form action="">
+        <fieldset>
+            <label for="journalDate">Date</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+
+        <fieldset>
+            <label for="conceptsCovered">New Concepts</label>
+            <textarea name="conceptsCovered" id="conceptsCovered"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label for="journalEntry">What happened today?</label>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="moodForTheDay">The Mood</label>
+            <select name="moodForTheDay" id="moodForTheDay">
+                <option name="Shakey">Shakey</option>
+                <option name="Firm">Firm</option>
+                <option name="Solid">Solid</option>
+            </select>
+        </fieldset>
+
+        <!-- <fieldset>
+        <label for="recordJournalEntry">Record Entry</label>
+        <option value="recordJournalEntry"></option>
+    </fieldset> -->
+        <button>Record Journal Entry</button>
+
+    </form>
+</div>
+
+<body>
+
+    <script src="src/scripts/main.js"></script>
+</body>
+
+</html>
