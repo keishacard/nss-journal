@@ -1,9 +1,13 @@
 console.log("main.js")
 const baseUrl = "http://localhost:3000"
+const submitBtn = document.querySelector("#submitBtn");
+
+submitBtn.addEventListener("click", submitJournalEntry);
 
 
 // walking through base code
-submitBtn = () => {
+submitJournalEntry = () => {
+
     let endpoint = "journalEntries"
 
     let submitObj = {
@@ -12,6 +16,12 @@ submitBtn = () => {
         "entry": "",
         "mood": ""
     }
+
+    let journalDate = document.querySelector("#journalDate");
+    let conceptsCovered = document.querySelector("#conceptsCovered");
+    let journalEntry = document.querySelector("#journalEntry");
+    let moodForTheDay = document.querySelector("#moodForTheDay");
+
 
     submitObj.name = document.querySelector("nameInput").nodeValue
 
