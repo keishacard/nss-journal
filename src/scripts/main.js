@@ -1,4 +1,4 @@
-console.log("main.js")
+console.log("hi");
 const baseUrl = "http://localhost:3000"
 const submitBtn = document.querySelector("#submitBtn");
 
